@@ -28,7 +28,7 @@ function QRCode() {
     <div> 
          <Container className='container'>
             <Card>
-                <h1 className='title'>Generate QR code</h1>
+                <h1 className='title'> QRcode Generater</h1>
                  <CardContent>
                         <Grid container spacing={2} className='qrgrid'>
                         <Grid item xl={4} lg={4} md={6} sm={12} xs={12}>
