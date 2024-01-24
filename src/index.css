@@ -1,0 +1,25 @@
+.container{
+     margin-top: 30px !important;
+}
+
+.title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      background-color:darkseagreen;
+}
+.btn{
+      margin-top: 10px !important;
+      margin-bottom: 20px !important;
+      background-color:darkseagreen !important;
+      color: black !important;
+      left:10px;
+      
+}
+
+.qrgrid{
+      display: inline-flex;
+      justify-content: flex-end;
+     
+}
