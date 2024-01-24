@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import QRCode from "./components/qrCode.jsx"
+import QRCode from "./components/QRCode"
+
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
        <BrowserRouter>
         <Routes>
-          <Route path="/" element={<QRCode/>} />
+        <Route path="/" element={<QRCode/>}/>
         </Routes>
        
        </BrowserRouter>
