@@ -12,7 +12,7 @@ function QRCode() {
                 try {
                     e.preventDefault();
                 
-                    let res=await axios.post("http://localhost:8000/create",{url})
+                    let res=await axios.post("https://qrcode-generator-etz5.onrender.com/create",{url})
     
                     console.log(res); 
                     
