@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import QRCode from "./components/qrCode"
+import QRCode from "./components/qrCode.jsx"
 
 
 function App() {
